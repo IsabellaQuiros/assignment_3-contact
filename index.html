@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Assignment 3</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
@@ -12,14 +12,15 @@
     html {
       background-color: #181818;
       background-image: url("Contact Background.png");
-      overflow-x: hidden; 
-    }
-    
-    body {
-      overflow-x: hidden; 
+      background-size: cover;
+      overflow-x: hidden;
     }
 
-   .nav ul {
+    body {
+      overflow-x: hidden;
+    }
+
+    .nav ul {
       list-style-type: none;
       overflow: hidden;
       background-color: rgba(0, 0, 0, 0.35);
@@ -42,22 +43,34 @@
     .nav li a:hover {
       color: #794DFF;
     }
-    
+
     .left-column {
       float: left;
-      width: 40%; 
+      width: 40%;
       padding-left: 100px;
       padding-top: 50px;
     }
-    
+
     .right-column {
-      float: right;
+      float: left;
+      padding-top: 150px;
       width: 50%
+    }
+
+    .footer {
+      background-color: #FFFFFF00;
+      float: left;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .footer-space {
+      color: #FFFFFF00;
     }
 
     h1 {
       color: white;
-      font-size: 100px;
+      font-size: 80px;
       text-align: center;
       font-family: "Karla";
       font-weight: 800;
@@ -78,14 +91,16 @@
       font-family: "Karla";
       font-weight: 200;
     }
-    
-    table, th, td {
-   color: white;
+
+    table,
+    th,
+    td {
+      color: white;
       font-size: 30px;
       text-align: left;
       font-family: "Karla";
       font-weight: 200;
-}
+    }
   </style>
   <body>
     <div class="nav">
@@ -98,28 +113,33 @@
         <li><a href="https://isabellaquiros.github.io/assignment_3-contact/">CONTACT</a></li>
       </ul>
     </div>
-    
- <div class="left-column">
-    <img src="Profile Pic 2.png" alt="Me!" style="float:right; width: 100%; padding-bottom:300; padding-right:50;">
-     
-    </div>
-    <div class="right-column">
-    <h1>CONTACT ME</h1>
-    <table style="width:100%">
-  <tr>
-    <th>EMAIL |</th>
-    <td>isabellaquiros05@gmail.com</td>
-  </tr>
-  <tr>
-    <th>PHONE NUMBER |</th>
-    <td>(289)-763-4383</td>
-  </tr>
-  <tr>
-    <th>LINKEDIN |</th>
-    <td>Isabella Quiros</td>
-  </tr>
-</table>
 
+    <div class="left-column">
+      <img src="Profile Pic 2.png" alt="Me!" style="width:100%">
+
+    </div>
+
+    <div class="right-column">
+      <h1 style="float: left;">CONTACT</h1>
+      <h1 style="float: left; color: #4C25C1;">ME</h1>
+      <table style="width:100%">
+        <tr>
+          <th>EMAIL |</th>
+          <td>isabellaquiros05@gmail.com</td>
+        </tr>
+        <tr>
+          <th>PHONE NUMBER |</th>
+          <td>(289)-763-4383</td>
+        </tr>
+        <tr>
+          <th>LINKEDIN |</th>
+          <td>Isabella Quiros</td>
+        </tr>
+      </table>
+
+    </div>
+    <div class="footer">
+      <h2 class="footer-space">Footer</h2>
     </div>
   </body>
 </html>
